@@ -1,49 +1,45 @@
-Background:
+# Python Challenge: PyBank & PyPoll
 
-In this assignment, we’ll use the concepts we've learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
+## Project Overview
+This project includes two Python scripting tasks: **PyBank** and **PyPoll**. Both tasks utilize Python to analyze real-world datasets, one for financial analysis and the other for election vote counting.
 
+## PyBank: Financial Record Analysis
+In this challenge, a Python script is created to analyze financial records from a dataset (`budget_data.csv`) with the following details:
+- **Dataset Columns**: Date, Profit/Losses
+- **Tasks**:
+  - Calculate the total number of months in the dataset.
+  - Compute the net total of "Profit/Losses" over the entire period.
+  - Calculate the changes in "Profit/Losses" and the average of those changes.
+  - Identify the greatest increase in profits (date and amount).
+  - Identify the greatest decrease in profits (date and amount).
 
-PyBank:
-![revenue-per-lead](https://github.com/SakinaJaffri/Module_Challenge3_Python_Challenge/assets/146900226/0d08c8c2-7ff2-4046-a015-1d7cb383d7b3)
+The script outputs the analysis to the terminal and saves the results to a text file.
 
+![Revenue Per Lead](https://github.com/SakinaJaffri/Module_Challenge3_Python_Challenge/assets/146900226/0d08c8c2-7ff2-4046-a015-1d7cb383d7b3)
 
-In this Challenge, we are tasked with creating a Python script to analyze the financial records of a company. We will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
+## PyPoll: Election Vote Analysis
+In this challenge, we are tasked with analyzing election data from the dataset (`election_data.csv`) to help automate the vote-counting process. The dataset contains the following columns:
+- **Dataset Columns**: Voter ID, County, Candidate
+- **Tasks**:
+  - Count the total number of votes cast.
+  - List all candidates who received votes.
+  - Calculate the percentage of votes each candidate won.
+  - Calculate the total votes for each candidate.
+  - Determine the winner of the election based on popular vote.
 
-Task is to create a Python script that analyzes the records to calculate each of the following values:
+The script outputs the analysis to the terminal and saves the results to a text file.
 
-•	The total number of months included in the dataset
+![Vote Counting](https://github.com/SakinaJaffri/Module_Challenge3_Python_Challenge/assets/146900226/62900afe-6424-429a-ad80-1db64dcb4dfa)
 
-•	The net total amount of "Profit/Losses" over the entire period
+## Tools Used
+- **Python**: Scripting language used for data analysis.
+- **Pandas**: Library used for data manipulation and analysis.
 
-•	The changes in "Profit/Losses" over the entire period, and then the average of those changes
+## How to Run
+1. Clone this repository.
+2. Install the required Python packages.
+3. Run the `pybank.py` or `pypoll.py` script in a Python environment.
+4. Results will be displayed in the terminal and saved as a `.txt` file.
 
-•	The greatest increase in profits (date and amount) over the entire period
-
-•	The greatest decrease in profits (date and amount) over the entire period
-
-
-In addition, final script should both print the analysis to the terminal and export a text file with the results.
-
-
-
-PyPoll:
-![Vote_counting](https://github.com/SakinaJaffri/Module_Challenge3_Python_Challenge/assets/146900226/62900afe-6424-429a-ad80-1db64dcb4dfa)
-
-
-In this Challenge, we are tasked with helping a small, rural town modernize its vote-counting process.
-
-We will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Task is to create a Python script that analyzes the votes and calculates each of the following values:
-
-•	The total number of votes cast
-
-•	A complete list of candidates who received votes
-
-•	The percentage of votes each candidate won
-
-•	The total number of votes each candidate won
-
-•	The winner of the election based on popular vote
-
-
-
-In addition, final script should both print the analysis to the terminal and export a text file with the results.
+## Contributors
+- **Sakina Jaffri** - Python scripting, data analysis, and report generation.
